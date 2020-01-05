@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe</title>
+    <meta name="description" content="Jeux Tictactoe JS">
+    <meta name="keywords" content="html, css, javascript">
+    <link favicon="icon" href="paticon.png" type="image/png">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/bulles.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <nav class="navlateral">
+        <div id="navigation" class="navigation">
+            <h2>MIC MAC MOE</h2>
+
+            <div id="optionsA" class="option"><span id="moreplayer" class="btn" title="Ajoute un joueur">✚ joueurs</span></div>
+            <div id="optionsB" class="option"><span id="lessplayer" class="btn" title="Supprime un joueur">🗑 joueurs</span></div>
+            <div id="optionsC" class="option"><span id="morecase" class="btn" title="Aggrandire le plateau d'une case">✚ cases</span></div>
+            <div id="optionsD" class="option"><span id="lesscase" class="btn" title="Réduire le plateau d'une case"> - cases</span></div>
+            <div id="optionsD" class="option"><span id="auto" class="btn" title="Ajuste le nombre de joueurs sur le nombre de cases">IArtisanale</span></div>
+
+            <h2>Animaux de la Ferme</h2>
+            <div id="lesjoueurs" class="lesjoueurs"></div>
+            <div id="lesjoueurs2" class="lesjoueurs2"></div>
+        </div>
+    </nav>
+    <div class="area" >
+        <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+        </ul>
+    </div >
+    <div class="fullpage">
+        <h1>Les Zanimaux qui la Ferme !</h1>
+        <p>Fait une ligne de trois petits cochons !</p>
+        <div id="board" class="tabledejeu"></div>
+        <div class="players">
+            <div id="playersturn" class="playersturn"></div>
+        </div>
+    </div>
+    <div id="partiesfaites" class="partiesfaites"></div>
+    <div id="buttons" class="buttons"></div>
+    <div id="version"></div>
+    <!-- LANDING -->
+    <script src="js/class_GameV0.19.js" type="text/javascript"></script>
+    <!-- <script src="../../js/devtools.js" type="text/javascript"></script> -->
+</body>
+</html>
